@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Practica de Maquetado</title>
+	<title>Formulario Html</title>
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
+<h1>Mi Primera Página</h1>
 <body>
 	<header>
 		<nav>
@@ -17,76 +18,47 @@
 			</ul>
 		</nav>
 	</header>
-	<section id="wrapper">
-		<aside></aside>
-		<section>
-			<article>
-				<h3>Artículo 1</h3>
-				<img src="http://lorempixel.com/220/150" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<form action="#">
+		<div>
+			<label>Nombre</label>
+			<input type="text">
+		</div>
+		<div>
+			<label>Genero</label>
+			<input type="radio" name="genero"><span>Masculino</span>
+			<input type="radio" name="genero"><span>Femenino</span>
+		</div>
+		<div>
+			<label>Correo Electrónico</label>
+			<input type="text">
+		</div>
+		<h1>Ciudad</h1>
+	<div id="formulario">
+		<form id="form1" onsubmit="return" action="post">
+			<select name= select1">
+				<option value="disabled select">seleccione ciudad</option>
+				<option value="Ciudad">Cancún</option>
+				<option value="Ciudad">Mérida</option>
+				<option value="Ciudad">Sonora</option>
+				<option value="Ciudad">Campeche</option>
+				<option value="Ciudad">Playa del carmen</option>
+				<option value="disabled select">Veracruz</option>
+				<option value="disabled select">Baja California </option>
+				<option value="disabled select">Acapulco</option>
+				<option value="disabled select">Tijuana</option>
+			</select>
+			<h2>INTERES</h2>
+			<nav>
+			<ul id="nav_header">
+				<li class="boton"><a href="#">Diseño</a></li>
+				<li class="boton"><a href="#">Programación</a></li>
+			</ul>
+			<input type="submit" name="Enviar">
+		</nav>
+		
 			</article>
-			<article>
-				<h3>Artículo 2</h3>
-				<img src="http://lorempixel.com/220/150" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-			<article>
-				<h3>Artículo 3</h3>
-				<img src="http://lorempixel.com/220/150" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-			<article>
-				<h3>Artículo 4</h3>
-				<img src="http://lorempixel.com/220/150" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-			<article>
-				<h3>Artículo 5</h3>
-				<img src="http://lorempixel.com/220/150" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-			<article>
-				<h3>Artículo 6</h3>
-				<img src="http://lorempixel.com/220/150" alt="">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</article>
-			<article>
-			<article></article>
-			<article></article>
-			<article></article>
-			<article></article>
 		</section>
-		<div class=" clearfix"></div>
+		<div class="clearfix"></div>
 	</section>
 	<footer>
 		

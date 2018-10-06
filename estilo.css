@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+ H1 {border-width: 1px; border: solid; text-align: center}
 .clearfix{
 	clear: both;
 }
@@ -42,11 +43,11 @@ nav{
 	transform: scale(1.1);
 }
 #wrapper{
-	/*heigth: 700px;*/
-	height: 700px;
+	/*height: 700px;*/
 	background: #abc213;
 }
 aside{
+	min-height: 700px;
 	height: 100%;
 	width: 30%;
 	background: #f0f0f0;
@@ -63,6 +64,7 @@ article{
 	float: left;
 	width: 30%;
 	overflow: hidden;
+	text-align: center;
 }
 .centrado{
 	margin-left: 5%;
